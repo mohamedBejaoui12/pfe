@@ -12,7 +12,7 @@ function Navbar() {
     setNav(!nav); /* Toggle between True and False*/
   };
   return (
-    <div className="flex text-black justify-between items-center h-24 max-w-[1240px] mx-auto px-4">
+    <div className="flex text-[#18335D] justify-between items-center h-24 max-w-[1240px] mx-auto px-4">
       {" "}
       {/* max-w-[1240px] make the max widht manualy*/}
       <h1 className="w-full text-3xl ml-2 font-bold text-[rgb(226,119,34)]">Replace.</h1>

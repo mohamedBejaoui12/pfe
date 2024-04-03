@@ -4,7 +4,7 @@ import { ReactTyped, Typed } from "react-typed";
 
 function Hero() {
   return (
-    <div className="w-full bg-white py-16 px-4 md:my-5 my-0">
+    <div className="w-full bg-transparent py-16 px-4 md:my-5 my-0 md:h-[77vh] h-[82vh]">
       <div className="max-w-[1240px] mx-auto flex flex-col-reverse md:flex-row">
         {" "}
         {/* flex-col-reverse : we used to make the image come above the text component */}
@@ -15,7 +15,7 @@ function Hero() {
           <h1 className="md:text-left text-center">
           <ReactTyped 
             strings={["Fuel Your Learning :) ", "Unlock Your Potentia ;) ", "Find Your Perfect Tutor <3 ","Elevate Your Learning :) "]}
-            className="md:text-5xl sm:text-4xl text-3xl font-bold py-2 "
+            className="md:text-5xl sm:text-4xl text-3xl font-bold py-2 text-[#18335D]"
             typeSpeed={85}
             backSpeed={40}
             loop
