@@ -33,15 +33,16 @@ function Navbar() {
           Contact
         </li>
       </ul>
-      <div onClick={handlenav} className="block md:hidden sticky ">
-        {" "}
+     
+      <div onClick={handlenav} className={`fixed top-7 right-4 z-10 md:hidden cursor-pointer duration-200 ease-in`}>
         {/* if the div that have the icon got clicked toggle between cancel and menu icon using nav variable */}
         {!nav ? (
-          <AiOutlineClose size={25} color="rgb(226,119,34)"  />
+          <AiOutlineClose size={25} color="rgb(226,119,34)" />
         ) : (
           <AiOutlineMenu size={25} color="rgb(226,119,34)" />
         )}
       </div>
+    
       <div
         className={
           !nav
